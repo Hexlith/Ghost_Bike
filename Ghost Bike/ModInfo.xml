@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Ghost_Bike"/>
+        <Description value="This is a mod that adds a Ghost themed motorcycle."/>
+        <Author value="Hexlith"/>
+        <Version value="2.0"/>
+    </ModInfo>
+</xml>

@@ -1,0 +1,6 @@
+<Ghost_Bike>
+
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,vehicleGhostBikeHandlebars,vehicleGhostBikeChassis</append>
+
+
+</Ghost_Bike>

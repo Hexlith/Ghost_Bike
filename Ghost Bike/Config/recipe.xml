@@ -1,0 +1,33 @@
+<Ghost_Bike>
+<append xpath="/recipes">
+	<recipe name="vehicleGhostBikeChassis" count="1" craft_time="150" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="50"/>
+		<ingredient name="resourceMechanicalParts" count="10"/>
+		<ingredient name="resourceDuctTape" count="10"/>
+		<ingredient name="resourceLeather" count="10"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+    <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,2" value=".5,.5" tags="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts"/>
+    </effect_group>
+</recipe>
+
+<recipe name="vehicleGhostBikeHandlebars" count="1" craft_time="150" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+    <ingredient name="resourceMechanicalParts" count="10"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+    <ingredient name="resourceHeadlight" count="2"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceForgedSteel" count="20"/>
+    <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,2" value=".5,.5" tags="resourceMechanicalParts,resourceDuctTape,resourceElectricParts,resourceForgedSteel"/>
+    </effect_group>
+</recipe>
+
+<recipe name="vehicleGhostBikePlaceable" count="1" craft_time="150" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+    <ingredient name="vehicleWheels" count="2"/>
+    <ingredient name="vehicleGhostBikeChassis" count="1"/>
+    <ingredient name="vehicleGhostBikeHandlebars" count="1"/>
+    <ingredient name="smallEngine" count="1"/>
+    <ingredient name="carBattery" count="1"/>
+</recipe>
+	</append>
+</Ghost_Bike>

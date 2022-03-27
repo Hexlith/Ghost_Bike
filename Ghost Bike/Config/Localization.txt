@@ -1,0 +1,6 @@
+Key,File,Type,english
+vehicleMotorcycleChassis,vehicles,item,Motorcycle Chassis
+vehicleMotorcycleChassisSchematic,vehicles,item,Motorcycle Chassis Schematic
+vehicleMotorcycleHandlebars,vehicles,item,Motorcycle Handlebars
+vehicleMotorcycleHandlebarsSchematic,vehicles,item,Motorcycle Handlebars Schematic
+vehicleMotorcyclePlaceable,vehicles,item,Motorcycle
